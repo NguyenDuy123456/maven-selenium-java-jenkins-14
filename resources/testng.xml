@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite parallel="false" name="facebook">
+<parameter name="server" value="LIVE" />
+
+  <test name="FirefoxTest">
+ 		<parameter name="browser" value="firefox" />
+ 		<classes>
+ 			<class name="jenkins.Topic_03_Xpath_Part_II_register" />
+ 		</classes>
+ 	</test>
+</suite> 

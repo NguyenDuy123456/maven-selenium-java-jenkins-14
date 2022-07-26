@@ -26,7 +26,7 @@ public class Topic_03_Xpath_Part_II_register {
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		//driver.get("");
+		
 	}
 
 	@Test
